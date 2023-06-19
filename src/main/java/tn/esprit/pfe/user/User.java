@@ -1,4 +1,4 @@
-package tn.esprit.pfe.entity;
+package tn.esprit.pfe.user;
 
 import jakarta.persistence.*;
 import lombok.*;

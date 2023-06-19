@@ -1,10 +1,10 @@
-package tn.esprit.pfe.controller;
+package tn.esprit.pfe.nodeData;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.pfe.entity.NodeData;
-import tn.esprit.pfe.service.NodeDataService;
+import tn.esprit.pfe.nodeData.NodeData;
+import tn.esprit.pfe.nodeData.NodeDataService;
 
 import java.util.List;
 
@@ -21,8 +21,11 @@ public class NodeDataController {
         return nodeDataService.getAllData();
     }
 
-    @PostMapping(value = "/add", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public NodeData addData(@RequestBody NodeData data) {
+    @PostMapping
+            (value = "/add",
+                    consumes = MediaType.APPLICATION_JSON_VALUE)
+    public NodeData addData
+            (@RequestBody NodeData data) {
         return nodeDataService.addData(data);
     }
 

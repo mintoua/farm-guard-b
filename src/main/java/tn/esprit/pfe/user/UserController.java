@@ -1,12 +1,11 @@
-package tn.esprit.pfe.controller;
+package tn.esprit.pfe.user;
 
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.pfe.entity.User;
-import tn.esprit.pfe.service.UserService;
+import tn.esprit.pfe.user.User;
+import tn.esprit.pfe.user.UserService;
 
 @AllArgsConstructor
 @RestController

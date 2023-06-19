@@ -1,9 +1,7 @@
-package tn.esprit.pfe.service;
+package tn.esprit.pfe.nodeData;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import tn.esprit.pfe.entity.NodeData;
-import tn.esprit.pfe.repository.NodeDataRepo;
 
 import java.util.List;
 

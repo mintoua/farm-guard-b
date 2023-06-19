@@ -1,9 +1,7 @@
-package tn.esprit.pfe.service;
+package tn.esprit.pfe.user;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import tn.esprit.pfe.entity.User;
-import tn.esprit.pfe.repository.UserRepository;
 
 @Service
 @AllArgsConstructor
